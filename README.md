@@ -1,4 +1,4 @@
-\## How the model works
+## How the model works
 
 
 
