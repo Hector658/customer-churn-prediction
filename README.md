@@ -60,3 +60,4 @@ the threshold was chosen to prioritize recall: at 0.265, the model catches 95% o
 
 at the cost of a lower precision (32%).
 
+A cost-based analysis was explored, estimating false-negative cost from each customer's historical betting value and assuming a conservative false-positive cost ($40 MXN per retention contact). Under this framework, the optimal threshold trends toward very low values, since the estimated cost of losing a customer vastly exceeds the cost of a retention contact. However, this result is highly sensitive to the false-negative cost assumption (90 days of projected future activity), which likely overestimates real recoverable value. The threshold of 0.265 was ultimately chosen as a more conservative, recall-focused compromise, rather than the mathematically "optimal" value from this cost model.
