@@ -1,0 +1,33 @@
+{
+  "feature_columns": [
+    "age",
+    "total_bet_amount",
+    "average_bet_amount",
+    "days_since_last_bet",
+    "bets_per_active_day",
+    "days_to_first_bet",
+    "segment_client_Occasional",
+    "segment_client_Recreational",
+    "segment_client_Seasonal",
+    "payment_method_Credit Card",
+    "payment_method_Debit Card",
+    "payment_method_Digital Wallet",
+    "residence_country_Brazil",
+    "residence_country_Colombia",
+    "residence_country_Mexico",
+    "residence_country_Spain"
+  ],
+  "threshold": 0.265,
+  "cutoff_date_used_for_training": "2025-06-30",
+  "churn_window_days": 14,
+  "categorical_columns_original": [
+    "segment_client",
+    "payment_method",
+    "residence_country"
+  ],
+  "test_set_metrics": {
+    "roc_auc": 0.7588528678304239,
+    "recall_churn": 0.952,
+    "precision_churn": 0.319
+  }
+}
